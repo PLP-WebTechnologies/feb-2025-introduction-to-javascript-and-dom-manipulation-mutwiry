@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intro to JavaScript and DOM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="main-heading">Welcome to JavaScript DOM</h1>
+  </header>
+
+  <section>
+    <p id="text">This paragraph will change.</p>
+    <button onclick="changeText()">Change Text</button>
+  </section>
+
+  <section>
+    <button onclick="toggleBox()">Toggle Box</button>
+    <div id="box" style="width: 100px; height: 100px; background-color: steelblue;"></div>
+  </section>
+
+  <section>
+    <button onclick="addItem()">Add List Item</button>
+    <ul id="list">
+      <li>Existing Item</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DOM Learning</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
